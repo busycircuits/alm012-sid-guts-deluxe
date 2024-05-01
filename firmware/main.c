@@ -1,5 +1,5 @@
 /*
-*   ALM014 'SID GUTS DULUXE' firmware 
+*   ALM012 'SID GUTS DULUXE' firmware 
 *   
 *   Copyright (c) 2014 ALM Co Ltd
 *
