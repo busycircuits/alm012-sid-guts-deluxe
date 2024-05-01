@@ -31,7 +31,7 @@ brew install avrdude
 
 Type 'make' in the firmare/ directory to compile the source code and
 then run 'make ispload' (with your programmer connected) to program the
-Fizzle.
+SID GUTS.
 
 ** License
 
