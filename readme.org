@@ -10,7 +10,7 @@ The ALM Busy Circuits ‘SID GUTS DELUXE’ takes the legendary SID chip and bri
 
 The module features voltage control over numerous SID parameters including the classic PWM, Filter type, cut off, resonance and external input, waveform selection, secondary mod oscillator with ring and sync modulation, voltage per octave tracking and a 3 voice chord mode with inversion. 
 
-The ‘SID GUTS DELUXE’ improves upon the original SID GUTS and was originally released 2014. In 2024 we ended production and have made the firmware and design files open source for anyone to build there own derivative. The files are available in this repository. 
+The ‘SID GUTS DELUXE’ improves upon the original SID GUTS and was originally released 2014. In 2024 we ended production and have made the firmware and design files open source for anyone to build their own derivative. The files are available in this repository. 
 
 Note you will need a donor SID chip for the module to work. Any real SID chip should work as should most emulated clones (Swin Sid etc). 
 
