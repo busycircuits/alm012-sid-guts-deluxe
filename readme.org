@@ -1,0 +1,48 @@
+* ALM012 SID GUTS DELUXE
+
+[[ALM12.png]]
+
+** Introduction
+
+The MOS Technology 6581/8580 ‘Sound Interface Device’ chip, aka the ‘SID’, was the sound generator chip used in the Commodore 64 home computer – the greatest selling home computer of all time.  The SID, by the means of 3 wavetable oscillators, a real analogue multi mode filter, an ADSR and various cross modulation options, provided the soundtrack to a generations gaming and perhaps many peoples first exposure to real sound synthesis. The SID’s unique musical aesthetic has lasted well beyond the lifetime of the C64 re-imagined in standalone products such as the SID Station and with in the computer via sophisticated software emulation.
+
+The ALM Busy Circuits ‘SID GUTS DELUXE’ takes the legendary SID chip and brings it into the eurorack modular environment. By use of a real (or emulated) SID chip the classic sound is taken in a new direction with the levels of direct and voltage control only a modular system can offer.
+
+The module features voltage control over numerous SID paramters including the classic PWM, Filter type, cut off, resonance and external input, waveform selection, secondary mod oscillator with ring and sync modulation, voltage per octave tracking and a 3 voice chord mode with inversion. 
+
+The ‘SID GUTS DELUXE’ improves upon the original SID GUTS and was originally released 2014. In 2024 we ended production and have made the firmware and design files open source for anyone to build there own derivative. The files are available in this repository. 
+
+Note you will need a donor SID chip for the module to work. Any real SID chip should work as should most emulated clones (Swin Sid etc). 
+
+*PLEASE NOTE EVERYTHING IS PROVIDED AS IS. WE ARE UNABLE PROVIDE ANY SUPPORT TO ANYONE ATTEMPTING TO USE THESE FILES*
+
+** Building and flashing the firmware
+
+You'll need a basic 'usbtiny' AVR programmer.
+
+You'll need to install avr-gcc and avrdude.
+
+/(On mac using brew..)/
+#+BEGIN_SRC
+brew tap osx-cross/avr
+brew install avr-gcc
+brew install avrdude
+#+END_SRC
+
+Type 'make' in the firmare/ directory to compile the source code and
+then run 'make ispload' (with your programmer connected) to program the
+Fizzle.
+
+** License
+
+Code: MIT license.
+
+Hardware: cc-by-sa-3.0
+
+** Guidelines for derivative works
+
+*ALM is a registered trademark.*
+
+The name "ALM" should not be used on any of the derivative works you create from these files.
+
+We kindly ask to do not name any derivatives 'SID GUTS' but give it a new name. 
