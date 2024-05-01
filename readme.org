@@ -1,6 +1,6 @@
 * ALM012 SID GUTS DELUXE
 
-[[ALM12.png]]
+[[ALM012.png]]
 
 ** Introduction
 
@@ -8,7 +8,7 @@ The MOS Technology 6581/8580 ‘Sound Interface Device’ chip, aka the ‘SID�
 
 The ALM Busy Circuits ‘SID GUTS DELUXE’ takes the legendary SID chip and brings it into the eurorack modular environment. By use of a real (or emulated) SID chip the classic sound is taken in a new direction with the levels of direct and voltage control only a modular system can offer.
 
-The module features voltage control over numerous SID paramters including the classic PWM, Filter type, cut off, resonance and external input, waveform selection, secondary mod oscillator with ring and sync modulation, voltage per octave tracking and a 3 voice chord mode with inversion. 
+The module features voltage control over numerous SID parameters including the classic PWM, Filter type, cut off, resonance and external input, waveform selection, secondary mod oscillator with ring and sync modulation, voltage per octave tracking and a 3 voice chord mode with inversion. 
 
 The ‘SID GUTS DELUXE’ improves upon the original SID GUTS and was originally released 2014. In 2024 we ended production and have made the firmware and design files open source for anyone to build there own derivative. The files are available in this repository. 
 
